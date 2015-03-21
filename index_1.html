@@ -17,7 +17,9 @@
             <div class="container">
                 <div class="navbar-header">
                     <a type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
-                    <a class="navbar-brand" href="index_1.html"><span>Quién Recicla</span></a>
+                    <a href="index_1.html" class="navbar-brand">
+							<img src="..\imagenes\logo.png" class="center-block img-responsive img-rounded" width="180">
+					</a>
                 </div>
                 <div class="collapse navbar-collapse" id="#navbar-ex-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -28,18 +30,25 @@
                             <a href="signin.html">Iniciar sesión</a>
                         </li>
                         <li>
-                            <a>
-                            <select class="form-control">
-                                <option>Venezuela</option>
-                                <option>Colombia</option>
-                                <option>Brasil</option>
-                                <option>Perú</option>
-                            </select>
-                            </a>
-                        </li>
-                        <li>
                             <a href="contacts.html">Contactos</a>
                         </li>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-expanded="false">País <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="#">Venezuela</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Colombia</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Perú</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </ul>
                 </div>
             </div>
